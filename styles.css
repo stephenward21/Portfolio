@@ -1,0 +1,136 @@
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+	.nav li {
+	display: inline-block;
+	margin-right: -4px;
+	}
+
+.intro-pic{
+	width: 100%;
+	height: 500px;
+	background-image: url("https://static.pexels.com/photos/34676/pexels-photo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.opening{
+	text-align: center;
+	color: white;
+	margin: auto;
+    width: 50%;
+    padding-top: 225px;
+}
+
+.about-section{
+	width: 100%;
+	height: 300px;
+	background-color: lightblue; 
+	border: 2px solid black;
+
+}
+
+img{
+	height:200px;
+	width: 500px;
+}
+
+.project-section{
+	width: 100%;
+	height: 600px;
+	/*background-color: #7a918d;*/
+}
+
+.skills-section{
+	width: 100%;
+	height: 400px;
+	background-color: lightblue;
+	border: 2px solid black;
+
+} 
+
+i{
+	font-size: 6em;
+	margin: 50px;
+}
+
+.first-icons{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.second-icons{
+	margin-top: 60px;
+}
+
+.contact-section{
+	width: 100%;
+	height: 200px;
+	background-color: grey;
+
+}
+
+.headers{
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.first-sample,.second-sample{
+	width: 30%;
+	height: 200px;
+	font-size: 24px;
+	background-color: #7a918d;
+	margin: 20px;
+	text-align: center;
+	color: white;
+}
+
+.description{
+	margin: 20px;
+	width: 50%;
+	height: 200px;
+	font-size: 24px;
+	background-color: darkgreen;
+	color: white;
+}
