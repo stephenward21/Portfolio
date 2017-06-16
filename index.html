@@ -7,7 +7,13 @@
 
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+
 
 
 </head>
@@ -17,10 +23,10 @@
     <div class="nav">
         <ul>
             <li class="home"><a href="#">Home</a></li>
-            <li class="tutorials"><a class="active" href="#">About</a></li>
-            <li class="about"><a href="#">Projects</a></li>
-            <li class="news"><a href="#">Skills</a></li>
-            <li class="contact"><a href="#">Contact</a></li>
+            <li class="about"><a href="#about-section">About</a></li>
+            <li class="projects"><a href="#project-section">Projects</a></li>
+            <li class="skills"><a href="#skills-section">Skills</a></li>
+            <li class="contact"><a href="#contact-section">Contact</a></li>
         </ul>
     </div>
 </header>
@@ -37,21 +43,21 @@
       <!-- ABOUT ME SECTION! -->
     <div class="row">
         <div class="col-sm-12 about-section">
-            <h2 class="headers">ABOUT ME</h2>
-                <img class="mae-pic" src="portfolio.png">
+                <img class="mae-pic" src="images/portfolio.png">
         </div>
     </div>
    <!--  PROJECT SECTION! -->
     <div class="row">
-        <div class="col-sm-12 project-section">
+        <a name="project-section"><div class="col-sm-12 project-section"></a>
             <h2 class="headers">Sample Projects</h2>
                 <div class="row">
-                    <div class="col-sm-4 first-sample"> First Sample</div>
+                    <div class="col-sm-4 first-sample"><img src="images/winedine.png"></div>
                     <div class= "col-sm-4 col-sm-offset-4 description">Description</div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4 second-sample"> Second Sample</div>
+                    <div class="col-sm-4 second-sample"><img src="images/blackjack.png"></div>
                     <div class= "col-sm-4 col-sm-offset-4 description">Description</div>
+
                 </div>
 
         </div>
@@ -59,7 +65,7 @@
   
     <!-- SKILLS SECTION! -->
     <div class="row">
-        <div class="col-sm-12 skills-section">
+        <a name="skills-section"><div class="col-sm-12 skills-section"></a>
             <h2 class="headers">SKILLZ</h2>
                 <div class="language-icons">
                     <div class="row">
@@ -96,8 +102,12 @@
     </div>
     <!-- CONTACT SECTION! -->
     <div class="row">
-        <div class="col-sm-12 contact-section">
+        <a name="contact-section"><div class="col-sm-12 contact-section"></a>
             <h2 class="headers">CONTACT</h2>
+                <div class="bottom-icons text-center">
+                    stephen.ward21@gmail.com
+                </div>
+
 <!--             Insert brief intro statement and background pic, maybe throw in some interactice jscript?
  -->         <!--    <div class="intro-pic">
             </div> -->
