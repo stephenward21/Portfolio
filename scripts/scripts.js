@@ -19,5 +19,11 @@ $(document).ready(function(){
 		$('html, body').animate({scrollTop: $(".contact-section").offset().top}, 1500);
 		
 	});
+
+	$('.opening').typeIt({
+     strings: 'My name is Stephen Ward...I love to code!',
+     speed: 60,
+     autoStart: false
+	});
             
 });
