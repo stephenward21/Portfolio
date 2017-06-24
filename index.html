@@ -7,12 +7,17 @@
 
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+
+    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
 
 
     <script type="text/javascript" src="scripts/scripts.js"></script>
@@ -29,10 +34,45 @@
             <li class="about"><a href="#about-section">About </a></li>
             <li class="projects"><a href="#project-section">Projects </a></li>
             <li class="skills"><a href="#skills-section">Skills </a></li>
-            <li class="contact"><a href="#contact-section">Contact</a></li>
+            <li class="contact"><a href="#">Contact</a></li>
         </ul>
     </div>
 </header>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title" id="myModalLabel text-center">Contact Me!</h4>
+            </div>
+            <div class="modal-body">
+                
+                <!-- <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a> -->
+                <h3 class="media-heading">Stephen Ward <small>Atlanta, GA</small></h3>
+                <strong>Links: </strong>
+                    
+                    <a href="https://github.com/stephenward21" target="_blank"><i class="devicon-github-plain-wordmark gitter-hub"></i></a>
+                    <a href="https://www.linkedin.com/in/stephen-ward-59557a47" target="_blank"><i class= "fa fa-linkedin-square" style="font-size:36px"></i></a>
+                    <a href="images/resume.pdf" target="_blank" class="resume">RESUME</a>
+                   <!--  <span></span>
+                    <span></span> -->
+                    
+               
+                <hr>
+                <center>
+                <p class="text-left"><strong><a href="mailto:stephen.ward21@gmail.com">Email </strong></a><br>
+                  </p>
+                <br>
+                </center>
+            </div>
+            <div class="modal-footer">
+                <center>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Back</button>
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="container-fluid">
     <div class="row">
@@ -48,20 +88,32 @@
       <!-- ABOUT ME SECTION! -->
     <div class="row">
         <div class="col-sm-12 about-section">
-                <img class="mae-pic" src="images/mae.jpeg">
+            <span class="media-left"><img class="mae-pic" src="images/mae.jpeg"></span>
+            <div class="media-body">
+                 <p class="paragraph"> "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                 <p class="paragraph">"Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat." </p>
+
+                 
+            </div>
         </div>
+
     </div>
    <!--  PROJECT SECTION! -->
     <div class="row">
-        <a name="project-section"><div class="col-md-12 project-section"></a>
-            <h2 class="headers">Sample Projects</h2>
+        <a name="project-section"><div class="col-sm-12 project-section"></a>
+            <!-- <h2 class="headers">Sample Projects</h2> -->
                 <div class="row">
-                    <div class="col-sm-4 first-sample"><img class="wine" src="images/winedine.png"></div>
+                    <div class="col-sm-4 first-sample"><a href=""><img class="wine" src="images/winedine.png"></a></div>
                     <div class= "col-sm-4 col-sm-offset-4 description">Description - Multi-faceted dinner application for the indecisive eater.  Booze and dinner are good!</div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4 second-sample"><img class="blackjack" src="images/blackjack.png"></div>
+                    <div class="col-sm-4 second-sample"><a href=""><img class="blackjack" src="images/blackjack.png"></a></div>
                     <div class= "col-sm-4 col-sm-offset-4 description">Description - An interactive blackjack game where you play the dealer to see how much you can win!!!</div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 third-sample"><a href=""><img class="movieapp" src="images/movieapp.png"></a></div>
+                    <div class= "col-sm-4 col-sm-offset-4 description">Description - An interactive movie database...Search for "Now Playing" or anything else that floats your boat!</div>
 
                 </div>
 
@@ -107,17 +159,53 @@
     </div>
     <!-- CONTACT SECTION! -->
     <div class="row">
-        <a name="contact-section"><div class="col-sm-12 contact-section"></a>
-            <h2 class="headers">CONTACT</h2>
+        <div class="col-sm-12 contact-section">
+            <h2 id="contact" class="headers">CONTACT</h2>
                 <div class="bottom-icons text-center">
-                    stephen.ward21@gmail.com
-                </div>
+                    <!-- stephen.ward21@gmail.com
+                    <a href="https://github.com/stephenward21"><i class="devicon-github-plain-wordmark gitter-hub"></i></a> -->
+                   
 
-<!--             Insert brief intro statement and background pic, maybe throw in some interactice jscript?
- -->         <!--    <div class="intro-pic">
-            </div> -->
+                </div>
+           <!--  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                            <h4 class="modal-title" id="myModalLabel text-center">Contact Me!</h4>
+                        </div>
+                        <div class="modal-body">
+                            <center>
+                            <!-<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a> -->
+          <!--                   <h3 class="media-heading">Stephen Ward <small>Atlanta, GA</small></h3>
+                            <span><strong>Sites: </strong></span>
+                                <span><a href="https://github.com/stephenward21" target="_blank"><i class="devicon-github-plain-wordmark gitter-hub"></i></a> </span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </center>
+                            <hr>
+                            <center>
+                            <p class="text-left"><strong> </strong><br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+                            <br>
+                            </center>
+                        </div>
+                        <div class="modal-footer">
+                            <center>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Stephen</button>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div> --> 
+
+
+
         </div>
     </div>
+
+
 </div>
 
 </body>

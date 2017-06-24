@@ -1,3 +1,6 @@
+.nav{
+	border: 3px solid grey;
+}
 .nav ul {
   list-style: none;
   /*background-color: #444;*/
@@ -58,6 +61,11 @@ strong{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.paragraph {
+	margin-top: 50px;
+	font-size: 28px;
+}
 .opening {
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -72,6 +80,13 @@ strong{
   letter-spacing: .15em; /* Adjust as needed */
 }
 
+.contact {
+	background-color: lightgreen;
+}
+
+.modal-title, .media-heading, strong, .text-left, .resume {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
 
 .about-section{
 	width: 100%;
@@ -81,10 +96,21 @@ strong{
 
 }
 
-.wine, .blackjack{
+.wine, .blackjack, .movieapp{
+	margin-top: 20px;
 	height:200px;
-	width: 500px;
+	width: 300px;
 	border-radius: 5%;
+}
+
+.description{
+	margin: 20px;
+	width: 50%;
+	height: 200px;
+	font-size: 24px;
+	background-color: darkgreen;
+	color: white;
+	border-radius: 10%;
 }
 
 .mae-pic {
@@ -120,6 +146,8 @@ strong{
 i{
 	font-size: 6em;
 	margin: 50px;
+	outline-style: none;
+	text-decoration: none;
 }
 
 .first-icons{
@@ -140,6 +168,14 @@ i{
 
 }
 
+.gitter-hub {
+	font-size: 3em;
+	margin: 10px;
+
+}
+
+
+
 .headers{
 	text-align: center;
 	font-size: 36px;
@@ -147,7 +183,7 @@ i{
 	color: white;
 }
 
-.first-sample,.second-sample{
+.first-sample,.second-sample, .third-sample{
 	width: 30%;
 	height: 200px;
 	font-size: 24px;
@@ -161,6 +197,7 @@ i{
 .first-sample{
 	/*background-image: url("winedine.png");*/
 	/*background-size: 400px 160px*/
+	/*border: 3px solid white;*/
 }
 
 .second-sample{
@@ -170,12 +207,3 @@ i{
 
 }
 
-.description{
-	margin: 20px;
-	width: 50%;
-	height: 200px;
-	font-size: 24px;
-	background-color: darkgreen;
-	color: white;
-	border-radius: 10%;
-}

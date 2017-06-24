@@ -14,16 +14,20 @@ $(document).ready(function(){
 		$('html, body').animate({scrollTop: $(".skills-section").offset().top}, 1500);
 		
 	});
-	$('.contact').click(function(){
-		event.preventDefault();
-		$('html, body').animate({scrollTop: $(".contact-section").offset().top}, 1500);
+	// $('.contact').click(function(){
+	// 	event.preventDefault();
+	// 	$('html, body').animate({scrollTop: $(".contact-section").offset().top}, 1500);
 		
-	});
+	// });
 
 	$('.opening').typeIt({
-     strings: 'My name is Stephen Ward...I love to code!',
+     strings: 'My name is Stephen Ward...I am a full stack web developer!  This has been the best career descision in my life, and I cant wait to grow as a software developer!',
      speed: 60,
      autoStart: false
+	});
+
+	$('.contact').click(function(){
+		$('#myModal').modal();
 	});
             
 });
