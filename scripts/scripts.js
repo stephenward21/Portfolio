@@ -21,9 +21,7 @@ $(document).ready(function(){
 	// });
 
 	$('.opening').typeIt({
-     strings: 'My name is Stephen Ward...I am a full stack web developer!  This has been the best career descision in my life, and I cant wait to grow as a software developer!',
-     speed: 60,
-     autoStart: false
+     strings: 'My name is Stephen Ward...I am a full stack web developer!  Please feel free to stay awhile and look around!'
 	});
 
 	$('.contact').click(function(){
