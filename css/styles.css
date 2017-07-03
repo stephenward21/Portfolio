@@ -145,28 +145,18 @@ strong{
 
 } 
 
-.skillz{
 
-	margin: auto;
-	width: 50%;
-	height: 300px;
-	/*font-size: 24px;*/
-	background-color: darkgreen;
-	/*color: white;*/
-	border-radius: 10%;
-	box-shadow: 10px 10px 5px #888888;
-
-}
-
-.skillz-2 {
-	margin-top: 20px;
-}
 
 i{
 	font-size: 6em;
 	margin: 50px;
 	outline-style: none;
 	text-decoration: none;
+	color: #3D8FC6;
+}
+
+.devicon{
+	color: #3D8FC6;
 }
 
 .first-icons{
