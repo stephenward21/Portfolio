@@ -10,16 +10,13 @@ $(document).ready(function(){
 		$('html, body').animate({scrollTop: $(".project-section").offset().top}, 1500);
 		
 	});
-	$('.skills').click(function(){
+
+	$('.to-top').click(function(){
 		event.preventDefault();
-		$('html, body').animate({scrollTop: $(".skills-section").offset().top}, 1500);
+		$('html, body').animate({scrollTop: $(".nav").offset().top}, 1500);
+		$('.contact').css({'background-color': '#7FFF00' , 'border-radius': '9%'})
 		
 	});
-	// $('.contact').click(function(){
-	// 	event.preventDefault();
-	// 	$('html, body').animate({scrollTop: $(".contact-section").offset().top}, 1500);
-		
-	// });
 
 	$('.opening').typeIt({
      strings: 'My name is Stephen Ward...I\'m a full stack web developer!  Please feel free to stay awhile and look around!'
@@ -29,6 +26,7 @@ $(document).ready(function(){
 	  slidesToShow: 1,
 	  slidesToScroll: 1,
 	  autoplay: true,
+	  infinite: true,
 	  autoplaySpeed: 3000,
 	  arrows: false
 	  // fade: true,

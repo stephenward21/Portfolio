@@ -6,7 +6,7 @@
   list-style: none;
   /*background-color: #444;*/
   text-align: center;
-  margin: 0;
+  margin-right: 0;
   padding: 0;
 
 }
@@ -16,6 +16,7 @@
 	font-size: 24px;
 	line-height: 40px;
 	height: 40px;
+	/*margin-left: 60px;*/
 	border-bottom: 1px solid #888;
 }
  
@@ -26,9 +27,9 @@
   transition: .3s background-color;
 }
  
-.nav a:hover {
+/*.nav a:hover {
   background-color: lightblue;
-}
+}*/
  
 .nav a.active {
   background-color: #fff;
@@ -55,15 +56,24 @@ strong{
 	font-size: 24px;
 }
 
+.projects {
+	margin-right: 45px;
+}
+
+.contact {
+	margin-left: 45px;
+}
+
 .intro-pic{
 	width: 100%;
 	height: 100vh;
-	background-image: url("https://static.pexels.com/photos/34676/pexels-photo.jpg");
+	background: url("../images/comp2.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .paragraph {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 	margin-top: 50px;
 	font-size: 28px;
 }
@@ -81,9 +91,9 @@ strong{
   letter-spacing: .15em; /* Adjust as needed */
 }
 
-.contact {
+/*.contact {
 	background-color: lightgreen;
-}
+}*/
 
 .modal-title, .media-heading, strong, .text-left, .resume {
 	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
@@ -101,9 +111,9 @@ strong{
 .wine, .ecommerce, .amazon{
 /*	margin-top: 20px;
 	margin-bottom: 20px;*/
-  	width: auto;
+  	width: 75%;
   	margin: 0 auto;
-	height:400px;
+	height:300px;
 	border-radius: 5%;
 
 }
@@ -127,12 +137,29 @@ strong{
 
 .project-section{
 	/*width: 100%;*/
-	height: 100vh;
+	height: 50vh;
 	background-color: #E8E8E8;
 	display: block;
-	margin-top: 20px;
+	margin-top: 40px;
 	/*background-color: lightblue;*/ 
 
+}
+
+.slide {
+	position: relative;
+}
+
+h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 46px;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+	text-transform: uppercase;
 }
 
 .proj {
@@ -146,10 +173,10 @@ strong{
 
 .skills-section{
 	width: 100%;
-	height: 100vh;
-	margin-top: 30px;
+	height: 50vh;
+	margin-top: 75px;
 	/*background-color: lightblue;*/
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	/*background:
 	linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
 	linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
@@ -179,7 +206,7 @@ i{
 
 .first-icons{
 	display: inline-block;
-	/*margin-bottom: 50px;*/
+	margin-bottom: 30px;
 	/*margin-top: 50px;*/
 }
 
@@ -233,5 +260,12 @@ i{
 	background-size: 400px 200px ;
 	background-repeat: no-repeat;
 
+}
+
+.to-top {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	margin-top: 50px;
+	color: black;
+	text-align: center;
 }
 
