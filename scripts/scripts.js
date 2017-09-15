@@ -28,10 +28,52 @@ $(document).ready(function(){
 	  autoplay: true,
 	  infinite: true,
 	  autoplaySpeed: 3000,
-	  arrows: false
+	  arrows: false,
+	  responsive: [
+	    {
+	      breakpoint: 1690,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	        infinite: true
+	      }
+	    },
+	    {
+	      breakpoint: 1280,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	        infinite: true
+	      }
+	    },
+	    {
+	      breakpoint: 980,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	        infinite: true
+	      }
+	    },
+	    {
+	      breakpoint: 736,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	        infinite: true
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	        infinite: true
+	      }
+	    }
 	  // fade: true,
 	  // asNavFor: '.slider-nav',
 	  // initialSlide: 1
+	  ]
 	});
 
 

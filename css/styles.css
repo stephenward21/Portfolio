@@ -73,12 +73,7 @@ strong{
 	background-repeat: no-repeat;
 }
 
-.paragraph {
-	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-	margin-top: 50px;
-	font-size: 28px;
-	/*float: right;*/
-}
+
 .opening {
   font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -102,20 +97,52 @@ strong{
 }
 
 .about-section{
-	width: 100%;
+	width: 50%;
 	height: 100vh; 
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	border-bottom: none;
 
 }
 
+.mae-pic {
+	/*margin-top: 25%;*/
+	border-radius: 50%;
+	/*height: 50%;*/
+
+}
+
+.media-left {
+	display: inline;
+	float: left;
+	/*width: 50%;*/
+}
+
+
+.paragraph {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	margin-top: 50px;
+	font-size: 28px;
+	/*float: right;*/
+	/*width: 10%;*/
+}
+
+.media-body {
+	width: 100%;
+	float: right;
+
+}
+
 .media-body p {
-	margin: 12%;
+	/*margin: 12%;*/
 	background-color: #e2e0e0;
 	padding: 20px;
 	opacity: .8;
   	box-shadow: 10px #e2e0e0;
   	border-radius: 10px;
+  	width: 75%;
+  	/*width: 10%;*/
+
+  	
 }
 
 .wine, .ecommerce, .amazon{
@@ -138,11 +165,6 @@ strong{
 	color: white;
 	border-radius: 10%;
 	box-shadow: 10px 10px 5px #888888;
-}
-
-.mae-pic {
-	margin-top: 25%;
-	border-radius: 50%
 }
 
 
@@ -181,13 +203,7 @@ h2 {
 	background-color: #E8E8E8;
 }
 
-.samples {
-	text-align: center;
-	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
-	color: white;
-}
-
-body {
+.proj-skills {
 	background-image: url('../images/desk.jpg');
 	height: 500px;
 	background-attachment: fixed;
@@ -195,6 +211,22 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.samples {
+	text-align: center;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	color: white;
+	margin-top: 90px;
+}
+/*
+body {
+	background-image: url('../images/desk.jpg');
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
 
 .slider-for {
 	
@@ -245,7 +277,7 @@ i{
 	border-radius: 10px;
 /*	margin-left: 40px;
 	margin-right: 40px;*/
-	margin: 40px;
+	/*margin: 40px;*/
 	padding-top: 30px;
 	background-color: #e2e0e0;
 	opacity: .8;
@@ -306,7 +338,7 @@ i{
 .to-top {
 	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 	margin-top: 50px;
-	color: white;
+	color: black;
 	text-align: center;
 }
 
