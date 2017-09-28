@@ -1,8 +1,45 @@
 $(document).ready(function(){
+	// $('.about-section').hide();
+ //    var d = $('.about-section');
+ //    var dPosTop = d.offset().top;
+ //    var win = $(window);
+ //    win.scroll(function(e){
+ //        var scrollTop = win.scrollTop();
+ //        if(scrollTop >= dPosTop){
+ //          d.show(3000);
+ //        }
+ //      else{
+ //        d.hide(3000);
+ //      }
+ //    });
+    // $('.proj-skills').hide();
+    // var d = $('.proj-skills');
+    // var dPosTop = d.offset().top;
+    // var win = $(window);
+    // win.scroll(function(e){
+    //     var scrollTop = win.scrollTop();
+    //     if(scrollTop >= dPosTop){
+    //       d.show(3000);
+    //     }
+    //   else{
+    //     d.hide(3000);
+    //   }
+    // });
+
+
 	//  
 	$('.about').click(function(){
 		event.preventDefault();
 		$('html, body').animate({scrollTop: $(".about-section").offset().top}, 1500);
+		// setTimeout(function(){
+		// 	$('.about-section').show();
+		// }, 2000);
+		
+		
+		// $('.about-section').css('display', 'unset');
+
+		
+	
 		
 	});
 	$('.projects').click(function(){
@@ -21,6 +58,10 @@ $(document).ready(function(){
 	$('.opening').typeIt({
      strings: 'My name is Stephen Ward...I\'m a full stack web developer!  Please feel free to stay awhile and look around!'
 	});
+
+	setTimeout(function(){
+		$('.scroll-down-section').fadeIn();
+	}, 12500);
 
 	$('.slider-for').slick({
 	  slidesToShow: 1,

@@ -1,6 +1,11 @@
 .nav{
 	border: 3px black;
 	background-color: #E8E8E8;
+	left: 0;
+	top: 0;
+	width: 100%;
+
+
 }
 .nav ul {
   list-style: none;
@@ -56,9 +61,7 @@ strong{
 	font-size: 24px;
 }
 
-.projects {
-	margin-right: 45px;
-}
+
 
 
 .contact {
@@ -71,8 +74,20 @@ strong{
 	background: url("../images/highway.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin-bottom: 40px;
+	margin-bottom: 80px;
 }
+
+.scroll-down-section {
+	display: none;
+}
+
+.scroll-down {
+	text-align: center;
+	margin-top: 50px;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+
 
 
 .opening {
@@ -83,12 +98,52 @@ strong{
   /*margin: 0 auto;*/ /* Gives that scrolling effect as the typing happens */
   text-align: center;
   color: white;
-  margin: auto;
+ /* margin-bottom: 50px;*/
   font-size: 28px;
   padding-top: 225px;
   letter-spacing: .15em; /* Adjust as needed */
 }
 
+.arrow {
+  width: 6px;
+  height: 80px;
+  margin: 5% auto;
+  border-radius: 3px;
+  background-color: white;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), white 75%);
+  -webkit-animation: 3s soft-blink infinite alternate;
+  animation: 3s soft-blink infinite alternate;
+  position: relative;
+  opacity: 0;
+}
+
+@-webkit-keyframes soft-blink {
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 0.8; }
+}
+
+@keyframes soft-blink {
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 0.8; }
+}
+
+.arrow:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -7px;
+  border-bottom: 6px solid white;
+  border-right: 6px solid white;
+  border-top: 6px solid transparent;
+  border-left: 6px solid transparent;
+  border-radius: 6px;
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 /*.contact {
 	background-color: lightgreen;
 }*/
@@ -105,6 +160,7 @@ strong{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	/*display: none;*/
 
 
 
@@ -114,7 +170,7 @@ strong{
 .mae-pic {
 	/*margin-top: 25%;*/
 	border-radius: 50%;
-	display: block;
+	/*visibility: hidden;*/
 	margin: auto;
 	height: 400px;
 	/*height: 50%;*/
@@ -124,6 +180,7 @@ strong{
 .media-left {
 	display: inline;
 	float: left;
+	/*display: none;*/
 	/*width: 50%;*/
 }
 
@@ -151,6 +208,7 @@ strong{
   	border-radius: 10px;
   	width: 100%;
 	float: right;
+	/*display: none;*/
 
 /*  	width: 75%;*/
   	/*width: 10%;*/
@@ -217,6 +275,9 @@ h2 {
 	background-color: #E8E8E8;
 }
 
+.projects {
+	margin-right: 45px;
+}
 .proj-skills {
 /*	background-image: url('../images/desk.jpg');
 	height: 50vh;
