@@ -104,6 +104,16 @@ strong{
   letter-spacing: .15em; /* Adjust as needed */
 }
 
+/*.arrow {
+	transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+	text-align: center;
+}*/
+
 .arrow {
   width: 6px;
   height: 80px;
