@@ -26,7 +26,9 @@ $(document).ready(function(){
     //   }
     // });
 
-
+ //    setTimeout(function(){
+	// 	$('header').fadeIn();
+	// }, 3000);
 	//  
 	$('.about').click(function(){
 		event.preventDefault();
@@ -56,7 +58,8 @@ $(document).ready(function(){
 	});
 
 	$('.opening').typeIt({
-     strings: 'My name is Stephen Ward...I\'m a full stack web developer!  Please feel free to stay awhile and look around!'
+     strings: 'My name is Stephen Ward...I\'m a full stack web developer.  Please feel free to stay awhile and look around!',
+     cursor: false
 	});
 
 	setTimeout(function(){
